@@ -1,5 +1,5 @@
 export class UserPageVar {
-    constructor(){}
+    constructor() { }
 
     secureHeader = $('.example>h2');
 }

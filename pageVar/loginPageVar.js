@@ -1,10 +1,10 @@
 export class LoginPageVar {
 
-    constructor(){
+    constructor() {
     }
 
-    url = "http://the-internet.herokuapp.com/login";
+    pageUrl = "http://the-internet.herokuapp.com/login";
     username = $('#username');
     password = $('#password');
-    LoginButton = $('.radius');
+    submitButton = $('.radius');
 }
